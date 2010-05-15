@@ -1,0 +1,13 @@
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+dist.ini
+lib/Mixin/Historian.pm
+lib/Mixin/Historian/Driver.pm
+lib/Mixin/Historian/Driver/Array.pm
+t/basic.t
+t/release-pod-syntax.t

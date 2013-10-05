@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Mixin::Historian;
 {
-  $Mixin::Historian::VERSION = '0.001';
+  $Mixin::Historian::VERSION = '0.102000';
 }
 use Mixin::ExtraFields 0.008 ();
 use base 'Mixin::ExtraFields';
@@ -64,7 +64,7 @@ Mixin::Historian - a mixin for recording history about objects
 
 =head1 VERSION
 
-version 0.001
+version 0.102000
 
 =head1 SYNOPSIS
 

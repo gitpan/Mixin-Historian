@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Mixin::Historian::Driver;
 {
-  $Mixin::Historian::Driver::VERSION = '0.001';
+  $Mixin::Historian::Driver::VERSION = '0.102000';
 }
 # ABSTRACT: base class for classes that act as Historian storage drivers
 
@@ -19,7 +19,7 @@ Mixin::Historian::Driver - base class for classes that act as Historian storage 
 
 =head1 VERSION
 
-version 0.001
+version 0.102000
 
 =head1 METHODS
 

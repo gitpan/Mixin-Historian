@@ -59,7 +59,7 @@
          "web" : "https://github.com/rjbs/Mixin-Historian"
       }
    },
-   "version" : "0.001",
+   "version" : "0.102000",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.019004"
@@ -261,14 +261,14 @@
             "version" : "2.014"
          },
          {
-            "class" : "Dist::Zilla::Plugin::Prereq",
+            "class" : "Dist::Zilla::Plugin::Prereqs",
             "config" : {
                "Dist::Zilla::Plugin::Prereqs" : {
                   "phase" : "runtime",
                   "type" : "requires"
                }
             },
-            "name" : "Prereq",
+            "name" : "Prereqs",
             "version" : "4.300039"
          },
          {

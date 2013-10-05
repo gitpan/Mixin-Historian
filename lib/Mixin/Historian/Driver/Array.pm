@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Mixin::Historian::Driver::Array;
 {
-  $Mixin::Historian::Driver::Array::VERSION = '0.001';
+  $Mixin::Historian::Driver::Array::VERSION = '0.102000';
 }
 use base 'Mixin::Historian::Driver';
 # ABSTRACT: a driver that stores history in an in-memory array (for testing)
@@ -48,7 +48,7 @@ Mixin::Historian::Driver::Array - a driver that stores history in an in-memory a
 
 =head1 VERSION
 
-version 0.001
+version 0.102000
 
 =head1 DESCRIPTION
 

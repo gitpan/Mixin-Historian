@@ -1,8 +1,8 @@
 use strict;
 use warnings;
 package Mixin::Historian;
-BEGIN {
-  $Mixin::Historian::VERSION = '0.101350';
+{
+  $Mixin::Historian::VERSION = '0.001';
 }
 use Mixin::ExtraFields 0.008 ();
 use base 'Mixin::ExtraFields';
@@ -55,6 +55,7 @@ sub build_method {
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -63,7 +64,7 @@ Mixin::Historian - a mixin for recording history about objects
 
 =head1 VERSION
 
-version 0.101350
+version 0.001
 
 =head1 SYNOPSIS
 
@@ -121,14 +122,13 @@ found a suitable decomposition of concerns to make it a component.
 
 =head1 AUTHOR
 
-  Ricardo Signes <rjbs@cpan.org>
+Ricardo Signes <rjbs@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Ricardo Signes.
+This software is copyright (c) 2013 by Ricardo Signes.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

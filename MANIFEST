@@ -9,5 +9,8 @@ dist.ini
 lib/Mixin/Historian.pm
 lib/Mixin/Historian/Driver.pm
 lib/Mixin/Historian/Driver/Array.pm
+t/00-compile.t
+t/000-report-versions-tiny.t
 t/basic.t
-t/release-pod-syntax.t
+xt/release/changes_has_content.t
+xt/release/pod-syntax.t

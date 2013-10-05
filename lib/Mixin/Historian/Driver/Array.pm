@@ -1,8 +1,8 @@
 use strict;
 use warnings;
 package Mixin::Historian::Driver::Array;
-BEGIN {
-  $Mixin::Historian::Driver::Array::VERSION = '0.101350';
+{
+  $Mixin::Historian::Driver::Array::VERSION = '0.001';
 }
 use base 'Mixin::Historian::Driver';
 # ABSTRACT: a driver that stores history in an in-memory array (for testing)
@@ -39,6 +39,7 @@ sub add_history {
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -47,7 +48,7 @@ Mixin::Historian::Driver::Array - a driver that stores history in an in-memory a
 
 =head1 VERSION
 
-version 0.101350
+version 0.001
 
 =head1 DESCRIPTION
 
@@ -64,14 +65,13 @@ a list of hashrefs in the form:
 
 =head1 AUTHOR
 
-  Ricardo Signes <rjbs@cpan.org>
+Ricardo Signes <rjbs@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Ricardo Signes.
+This software is copyright (c) 2013 by Ricardo Signes.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
